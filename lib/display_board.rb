@@ -3,9 +3,9 @@ def display_board
   separator = "|"
   lines = "-----------"
 
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-  puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
-  puts "#{lines}"
-  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts cell + separator + cell + separator + cell
+  puts lines
+  puts cell + separator + cell + separator + cell
+  puts lines
+  puts cell + separator + cell + separator + cell
 end
