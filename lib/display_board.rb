@@ -1,7 +1,11 @@
-def display_board(board)
-  puts " #{board[0]} | #{board[1]} | #{board[2]} "
-  puts "-----------"
-  puts " #{board[3]} | #{board[4]} | #{board[5]} "
-  puts "-----------"
-  puts " #{board[6]} | #{board[7]} | #{board[8]} "
+def display_board
+  cell = "   "
+  separator = "|"
+  lines = "-----------"
+
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
+  puts "#{lines}"
+  puts "#{cell}#{separator}#{cell}#{separator}#{cell}"
 end
